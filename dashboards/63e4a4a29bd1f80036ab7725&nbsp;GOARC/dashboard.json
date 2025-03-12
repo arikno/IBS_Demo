@@ -1,0 +1,71 @@
+{
+    "allowChangeSubscription": false,
+    "autoUpdateOnFiltersChange": true,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aGOARC",
+        "fullname": "localhost/GOARC",
+        "id": "localhost_aGOARC",
+        "live": false,
+        "title": "GOARC"
+    },
+    "desc": "",
+    "filterRelations": [
+    ],
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "63e4a4a29bd1f80036ab7725",
+    "script": "./script.js",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "63e4a4a29bd1f80036ab7725"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2023-02-09",
+        "subscribe": false,
+        "timezone": -180,
+        "type": "onUpdate",
+        "tzName": "Asia/Jerusalem"
+    },
+    "title": "GOARC",
+    "useAcceleration": false,
+    "widgets": [
+        "./widgets/63e4a4c49bd1f80036ab7727/widget.json",
+        "./widgets/63e4a4d69bd1f80036ab7729/widget.json",
+        "./widgets/63e4a4f39bd1f80036ab772d/widget.json",
+        "./widgets/63e4a5829bd1f80036ab7731/widget.json",
+        "./widgets/63e4a5879bd1f80036ab7733/widget.json",
+        "./widgets/63e5fcf096225500360618ef/widget.json",
+        "./widgets/63e9e80399e55500369dc4ce/widget.json"
+    ]
+}

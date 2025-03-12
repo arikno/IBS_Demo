@@ -1,0 +1,116 @@
+{
+    "defaultFilters": [
+        {
+            "disabled": false,
+            "instanceid": "DF439-2864-C3",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": false,
+                "column": "Security",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGOARC",
+                    "fullname": "localhost/GOARC",
+                    "id": "localhost_aGOARC",
+                    "live": false,
+                    "title": "GOARC"
+                },
+                "datatype": "text",
+                "dim": "[DimEntitySecurity.Security]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "DimEntitySecurity",
+                "title": "Security"
+            }
+        },
+        {
+            "instanceid": "48D6C-D832-03",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": false,
+                "column": "EntityID",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGOARC",
+                    "fullname": "localhost/GOARC",
+                    "id": "localhost_aGOARC",
+                    "live": false,
+                    "title": "GOARC"
+                },
+                "datatype": "numeric",
+                "dim": "[DimEntitySecurity.EntityID]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "DimEntitySecurity",
+                "title": "EntityID"
+            }
+        }
+    ],
+    "filters": [
+        {
+            "disabled": false,
+            "instanceid": "DF439-2864-C3",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": false,
+                "column": "Security",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGOARC",
+                    "fullname": "localhost/GOARC",
+                    "id": "localhost_aGOARC",
+                    "live": false,
+                    "title": "GOARC"
+                },
+                "datatype": "text",
+                "dim": "[DimEntitySecurity.Security]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "DimEntitySecurity",
+                "title": "Security"
+            }
+        },
+        {
+            "instanceid": "48D6C-D832-03",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": false,
+                "column": "EntityID",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGOARC",
+                    "fullname": "localhost/GOARC",
+                    "id": "localhost_aGOARC",
+                    "live": false,
+                    "title": "GOARC"
+                },
+                "datatype": "numeric",
+                "dim": "[DimEntitySecurity.EntityID]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "DimEntitySecurity",
+                "title": "EntityID"
+            }
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "63e4a4a29bd1f80036ab7725",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aGOARC",
+        "fullname": "localhost/GOARC",
+        "id": "localhost_aGOARC",
+        "live": false,
+        "title": "GOARC"
+    },
+    "desc": null,
+    "lastOpened": null,
+    "mainDim": {
+        "instanceid": "20E6D-671E-53",
+        "jaql": {
+            "column": "Tag",
+            "datatype": "text",
+            "dim": "[ProductCategory.Tag]",
+            "merged": true,
+            "table": "ProductCategory",
+            "title": "Tag"
+        }
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "instanceid": "20E6D-671E-53",
+                        "jaql": {
+                            "column": "Tag",
+                            "datatype": "text",
+                            "dim": "[ProductCategory.Tag]",
+                            "merged": true,
+                            "table": "ProductCategory",
+                            "title": "Tag"
+                        }
+                    }
+                ],
+                "name": "Dimentions"
+            },
+            {
+                "items": [
+                    {
+                        "instanceid": "0B06F-AD87-B3",
+                        "jaql": {
+                            "column": "Tag",
+                            "datatype": "text",
+                            "dim": "[ProductCategory.Tag]",
+                            "merged": true,
+                            "table": "ProductCategory",
+                            "title": "Tag"
+                        }
+                    }
+                ],
+                "name": "Target Dimention"
+            },
+            {
+                "items": [
+                    {
+                        "instanceid": "E2709-4D80-8F",
+                        "jaql": {
+                            "agg": "countduplicates",
+                            "column": "prod_id",
+                            "datatype": "numeric",
+                            "dim": "[VennSample.prod_id]",
+                            "table": "VennSample",
+                            "title": "# of prod_id"
+                        }
+                    }
+                ],
+                "name": "Value"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "63e5fcf096225500360618ef",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "title": false
+    },
+    "style": {
+        "isRoundStrokes": true,
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "tag",
+                    "plural": "Tag",
+                    "singular": "Tag",
+                    "title": "Tag"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        }
+    },
+    "subtype": "Venn",
+    "targetDim": {
+        "instanceid": "0B06F-AD87-B3",
+        "jaql": {
+            "column": "Tag",
+            "datatype": "text",
+            "dim": "[ProductCategory.Tag]",
+            "merged": true,
+            "table": "ProductCategory",
+            "title": "Tag"
+        }
+    },
+    "title": "",
+    "type": "Venn",
+    "valuePanel": {
+        "instanceid": "E2709-4D80-8F",
+        "jaql": {
+            "agg": "countduplicates",
+            "column": "prod_id",
+            "datatype": "numeric",
+            "dim": "[VennSample.prod_id]",
+            "table": "VennSample",
+            "title": "# of prod_id"
+        }
+    },
+    "venActiveFilters": [
+        {
+            "instanceid": "DF439-2864-C3",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "Security",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGOARC",
+                    "fullname": "localhost/GOARC",
+                    "id": "localhost_aGOARC",
+                    "live": false,
+                    "title": "GOARC"
+                },
+                "datatype": "text",
+                "dim": "[DimEntitySecurity.Security]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "DimEntitySecurity",
+                "title": "Security"
+            },
+            "panel": "scope"
+        }
+    ]
+}
