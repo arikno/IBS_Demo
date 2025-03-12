@@ -111,6 +111,37 @@
                 "table": "DimEntitySecurity",
                 "title": "EntityID"
             }
+        },
+        {
+            "instanceid": "8615C-37FF-EB",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "Date",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aGOARC",
+                    "fullname": "localhost/GOARC",
+                    "id": "localhost_aGOARC",
+                    "live": false,
+                    "title": "GOARC"
+                },
+                "datatype": "datetime",
+                "dim": "[DimDates.Date (Calendar)]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "level": "years",
+                    "multiSelection": true
+                },
+                "firstday": "mon",
+                "isDashboardFilter": true,
+                "level": "years",
+                "locale": "en-us",
+                "merged": true,
+                "table": "DimDates",
+                "title": "Years in Date"
+            }
         }
     ]
 }

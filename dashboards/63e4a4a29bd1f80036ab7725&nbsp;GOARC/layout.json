@@ -18,7 +18,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 470.328,
+                                "pxlWidth": 346,
                                 "stretchable": false,
                                 "width": 25
                             },
@@ -35,7 +35,7 @@
                                     }
                                 ],
                                 "index": 1,
-                                "pxlWidth": 470.328,
+                                "pxlWidth": 346,
                                 "stretchable": false,
                                 "width": 25
                             },
@@ -52,7 +52,7 @@
                                     }
                                 ],
                                 "index": 2,
-                                "pxlWidth": 235.156,
+                                "pxlWidth": 346,
                                 "stretchable": false,
                                 "width": 25
                             },
@@ -69,7 +69,7 @@
                                     }
                                 ],
                                 "index": 3,
-                                "pxlWidth": 235.156,
+                                "pxlWidth": 346,
                                 "stretchable": false,
                                 "width": 25
                             }
@@ -90,7 +90,7 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 705.5,
+                                "pxlWidth": 692,
                                 "stretchable": false,
                                 "width": 50
                             },
@@ -107,7 +107,7 @@
                                     }
                                 ],
                                 "index": 1,
-                                "pxlWidth": 705.5,
+                                "pxlWidth": 692,
                                 "stretchable": false,
                                 "width": 50
                             }
@@ -128,19 +128,45 @@
                                     }
                                 ],
                                 "index": 0,
-                                "pxlWidth": 1411,
+                                "pxlWidth": 1384,
                                 "stretchable": false,
                                 "width": 100
+                            }
+                        ]
+                    },
+                    {
+                        "subcells": [
+                            {
+                                "elements": [
+                                    {
+                                        "defaultWidth": 512,
+                                        "height": 192,
+                                        "maxHeight": 1028,
+                                        "maxWidth": 1028,
+                                        "minHeight": 64,
+                                        "minWidth": 48,
+                                        "widgetid": "67d15e504e0bd900336564bc"
+                                    }
+                                ]
                             }
                         ]
                     }
                 ],
                 "index": 0,
-                "pxlWidth": 1411,
+                "pxlWidth": 1384,
                 "width": 100
             }
         ],
         "container": {
+            "sizzle1741774205492": {
+                "undefined": {
+                    "parentNode": [
+                        73.47255847898333,
+                        29,
+                        true
+                    ]
+                }
+            }
         },
         "instanceid": "BFCE2-7919-24",
         "type": "columnar"
